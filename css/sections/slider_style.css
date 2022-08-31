@@ -1,0 +1,56 @@
+/* Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider */
+/* Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider Slider */
+/* Slider Slider Slider Slider Slider Slider Slider Services Services Services Services Services Services Services Services Services Services Services Services Services Services */
+
+.slider {
+    background-image: url(../../assets/images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.slider .overlay{
+    background-color: rgba(0, 119, 255, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slider .carousel-indicators button{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    color: white;
+    margin: 0 0.25rem;
+}
+
+.slider .slider-item h4{
+    color: white;
+}
+
+.slider .slider-item p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:992px){
+
+    .slider {
+        padding: 6rem 5% !important;
+    }
+
+}
+
+@media screen and (max-width:760px){
+
+    .slider {
+        padding: 4rem 0 !important;
+    }
+
+}

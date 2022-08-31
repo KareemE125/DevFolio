@@ -1,0 +1,96 @@
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+
+.blog .content .card{
+    border-radius: 0px 0px 6px 6px;
+}
+
+.blog .content .card img{
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.blog .content .card .card-body{
+    position: relative;
+}
+
+.blog .content .card .card-body .float-title{
+    background-color: var(--main-color);
+    display: inline-block;
+
+    padding: 4px 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 94%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blog .content .card .card-body h5{
+    transition: 0.5s;
+}
+.blog .content .card .card-body h5:hover{
+    color: var(--main-color);
+}
+
+.blog .content .card .card-footer img{
+    width: 35px;
+    border-radius: 50% !important;
+    margin-right: 5px !important;
+}
+
+.blog .content .card .card-footer i{
+    color: var(--main-color);
+}
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:1180px){
+    .blog .content .card .card-footer{
+        display: block !important;
+    }
+
+    .blog .content .card .card-footer .right{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width:960px){
+    .blog .content{
+        flex-direction: column;
+        margin-bottom: 0 !important;
+    }
+
+    .blog .content .card .card-footer{
+        display: flex !important;
+    }
+
+    .blog .content .card{
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        margin-bottom: 3rem !important;
+    }
+}
+
+@media screen and (max-width:630px){
+    .blog .content .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width:380px){
+    .blog .content .card .card-footer{
+        display: block !important;
+    }
+}
+
+
+
+
